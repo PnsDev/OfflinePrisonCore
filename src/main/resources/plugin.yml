@@ -1,0 +1,12 @@
+name: Core
+version: '${project.version}'
+main: dev.pns.offlineprisoncore.OfflinePrisonCore
+authors: [ PnsDev ]
+description: The main core of the prison system
+website: https://pns.dev
+commands:
+  debug:
+    description: Debug command
+  message:
+    description: Send a message to a player
+    aliases: [msg]
